@@ -1,0 +1,9 @@
+#ifndef INCLUDE_CONFIG_H
+#define INCLUDE_CONFIG_H
+
+enum {
+  LISTEN_BACKLOG = 4,
+  RINGBUF_SIZE = 128 * 1024
+};
+
+#endif
